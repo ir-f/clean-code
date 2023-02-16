@@ -1,12 +1,13 @@
 package com.endava.tech.cources.java.names.rules;
 
+import java.util.Locale.IsoCountryCode;
+
 public class Person {
 
-    private int a;
-    private int b;
-    private boolean x;
-    private boolean y;
-    private Object object;
-    private String info;
+    private int id;
+    private int age;
+    private boolean isMale;
+    private boolean isAlive;
+    private IsoCountryCode countryOfResidence;
 
 }

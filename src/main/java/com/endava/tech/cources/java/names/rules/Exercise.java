@@ -1,5 +1,7 @@
 package com.endava.tech.cources.java.names.rules;
 
+import java.time.LocalDate;
+
 public class Exercise {
 
     public static void main(String[] args) {
@@ -8,22 +10,22 @@ public class Exercise {
 
     class Car {
 
-        private String a;
-        private String b;
-        private int c;
-        private String d;
-        private int e;
+        private String ab;
+        private String bc;
+        private int cd;
+        private String de;
+        private int ef;
 
         public Car(String make, String model, int year, String color, int speed) {
-            this.a = make;
-            this.b = model;
-            this.c = year;
-            this.d = color;
-            this.e = speed;
+            this.ab= make;
+            this.bc = model;
+            this.cd = year;
+            this.de = color;
+            this.ef = speed;
         }
 
-        public int retrieve() {
-            return c;
+        public int findOut() {
+            return LocalDate.now().getYear() - cd;
         }
     }
 
