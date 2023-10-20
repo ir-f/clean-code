@@ -19,7 +19,10 @@ public class MagicStrings {
         private static final String HELLO_MESSAGE = "Hello";
 
         public static void main(String[] args) {
-            String message = HELLO_MESSAGE;
+           checkMessage("some string");
+        }
+
+        private static void checkMessage(String message) {
             if (message == HELLO_MESSAGE) {
                 System.out.println("The message is Hello");
             } else {
